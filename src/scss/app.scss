@@ -27,3 +27,25 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+ .box {
+            display: flex;
+          }
+      {box-sizing: border-box;}
+      .open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.sidebar {
+    width:280px;
+    height:500px;
+    float:left;
+    background:blue;
+}
